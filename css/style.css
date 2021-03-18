@@ -344,7 +344,7 @@
 			.li_top_menu:hover >ul {
 				/*display: block;*/
 				top: 100%;
-				transition: top .3s cubic-bezier(0.18, 0.89, 0.32, 1.48);
+				transition: top .4s cubic-bezier(0.18, 0.89, 0.32, 1.88);
 			}
 			.relative {
 				position: relative;
@@ -394,7 +394,7 @@
 			.ul_float_menu {
 				position: absolute;
 				top: 0;
-				right: 140%;
+				right: 160%;
 				opacity: 0;
 				/*display: none;*/
 			}
@@ -402,7 +402,7 @@
 				/*display: block;*/
 				right: 100%;
 				opacity: 1;
-				transition: right .3s linear, opacity .3s linear;
+				transition: right .5s linear, opacity .5s linear;
 			}
 			.li_float_menu {
 				padding: 1px 1px 0 0;
